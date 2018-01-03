@@ -1,0 +1,35 @@
+body {
+	background: #444;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 200%;
+}
+a {
+	color: white;
+}
+div#image {
+	display: table;
+	margin: 0 auto;
+	padding: 20px;
+}
+div#ip {
+	font: sans-serif;
+	display: inline;
+	padding: 20px;
+}
+div#content, div#header, div#loading {
+	display: table;
+	margin: 0 auto;
+}
+div#header {
+	padding-top: 40px;
+	animation-name: loading;
+	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-iteration-count: 99;
+	opacity: 0;
+}
+@keyframes loading {
+	80% { opacity: 1; }
+}
